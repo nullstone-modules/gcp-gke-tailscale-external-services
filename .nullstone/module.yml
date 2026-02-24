@@ -1,0 +1,16 @@
+org_name: nullstone
+name: gcp-gke-tailscale-external-services
+friendly_name: Tailscale External Services
+description: Register machines in Tailscale network as Kubernetes services for internal cluster access.
+category: ingress
+subcategory: ""
+provider_types:
+    - gcp
+platform: tailscale
+subplatform: gke
+type: ""
+appCategories: []
+is_public: true
+tool_name: opentofu
+include: []
+source_url: https://github.com/nullstone-modules/gcp-gke-tailscale-external-services
